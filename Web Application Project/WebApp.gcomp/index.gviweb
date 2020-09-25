@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5C3CC6AE6A07868BBDDB123C7AF041A2DAE6EE04359EF17EDB9CEFFFAF4CECFC4E7B79F1C6CCDF5CC6A49225026DBD44C7FB9EB9AD70CEE34EF1C426D39E0B43" Timestamp="1D6934188FF0763" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="37" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<Canvas Id="38" Left="[float]0" Top="[float]0">
+					<Path Data="[PathGeometry]M 39,36 C 39,37.6500015 37.6500015,39 36,39 L 4,39 C 2.3499999,39 1,37.6500015 1,36 L 1,4 C 1,2.3499999 2.3499999,1 4,1 L 36,1 C 37.6500015,1 39,2.3499999 39,4 L 39,36 Z" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Id="39" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 36,1 C 37.6539993,1 39,2.34599996 39,4 L 39,36 C 39,37.6539993 37.6539993,39 36,39 L 4,39 C 2.34599996,39 1,37.6539993 1,36 L 1,4 C 1,2.34599996 2.34599996,1 4,1 L 36,1 M 36,0 L 4,0 C 1.79999995,0 0,1.79999995 0,4 L 0,36 C 0,38.2000008 1.79999995,40 4,40 L 36,40 C 38.2000008,40 40,38.2000008 40,36 L 40,4 C 40,1.79999995 38.2000008,0 36,0 L 36,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 38,36 C 38,37.0999985 37.0999985,38 36,38 L 4,38 C 2.9000001,38 2,37.0999985 2,36 L 2,4 C 2,2.9000001 2.9000001,2 4,2 L 36,2 C 37.0999985,2 38,2.9000001 38,4 L 38,36 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Id="41" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 30.1270008,18.5489998 C 31.2910004,19.2229996 31.2910004,20.3260002 30.1270008,21 L 11.1169996,31.7119999 C 9.95300007,32.3860016 9,31.8369999 9,30.4909992 L 9,9.50899982 C 9,8.16399956 9.95300007,7.61399984 11.1169996,8.28800011 L 30.1270008,18.5489998 Z M 21,19 L 17,19 L 17,15 L 15,15 L 15,19 L 11,19 L 11,21 L 15,21 L 15,25 L 17,25 L 17,21 L 21,21 L 21,19 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="42" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 38,10 L 38,19 L 35.9080009,19 C 35.7010002,18.4190006 35.1520004,18 34.5,18 C 33.6720009,18 33,18.6720009 33,19.5 C 33,20.3279991 33.6720009,21 34.5,21 C 35.1520004,21 35.7019997,20.5809994 35.9080009,20 L 38,20 L 38,30 L 16.1919994,30 L 30.618,21.8710003 C 31.5,21.3610001 32,20.5979996 32,19.7740002 C 32,18.9500008 31.5,18.1879997 30.6280003,17.6830006 L 16.3929996,10 L 38,10 Z M 2,10 L 2,14 L 4.09200001,14 C 4.29899979,13.4189997 4.84800005,13 5.5,13 C 6.32800007,13 7,13.6719999 7,14.5 C 7,15.3280001 6.32800007,16 5.5,16 C 4.84800005,16 4.29799986,15.5810003 4.09200001,15 L 2,15 L 2,25 L 4.09200001,25 C 4.29899979,24.4190006 4.84800005,24 5.5,24 C 6.32800007,24 7,24.6720009 7,25.5 C 7,26.3279991 6.32800007,27 5.5,27 C 4.84800005,27 4.29799986,26.5809994 4.09200001,26 L 2,26 L 2,30 L 8,30 L 8,10 L 2,10 Z" Fill="[SMSolidColorBrush]#ff62839d" Height="[float]40" Id="43" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+				</Canvas>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<WhileLoop Bounds="120 30 1020 600" DiagramId="17" Id="16">
+				<LoopIteration Bounds="5 570 15 15" Id="18" />
+				<LoopCondition Bounds="935 555 15 15" Id="19" />
+				<Literal Bounds="880 555 25 15" DataType="Boolean" Id="20" Label="21" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="20" Bounds="845 555 30 15" Id="21" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>stop</p.Text>
+				</NodeLabel>
+				<Wire Id="22" Joints="N(20:Out)|(905,560) N(19:Input)|(935,560)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wait Bounds="910 500 40 40" Id="23" />
+				<Literal Bounds="860 515 40 15" DataType="UInt32" Id="24" Label="25" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>100</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+				</Literal>
+				<NodeLabel AttachedTo="24" Bounds="825 515 30 15" Id="25" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>milliseconds to wait</p.Text>
+				</NodeLabel>
+				<Wire Id="26" Joints="N(24:Out)|(900,520) N(23:time to wait)|(910,520)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="770 235 40 15" DataItem="26f481fabe70408a89d32215e09cd85c" Id="2ba248390d33474d806464386dbac4a1" Label="abcd00b326f34d91b1a27605c2539aa0" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="2ba248390d33474d806464386dbac4a1" Bounds="815 235 36 14" Id="abcd00b326f34d91b1a27605c2539aa0" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Gauge</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="720 360 40 15" DataItem="1163f29b983d41538d0820c94c99c266" Id="3619d6b8a587444ca2c32649aa6f05e8" Label="440025e5e15b458c9fbf8c7b86382f87" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="3619d6b8a587444ca2c32649aa6f05e8" Bounds="765 360 22 14" Id="440025e5e15b458c9fbf8c7b86382f87" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>LED</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="530 360 40 15" DataItem="88ea370206ac418baf18b99058c85ad4" Id="85af53fa5fe6411193b81c811af423b3" Label="9abdfaf5d00b459e8315250612d328d8" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="85af53fa5fe6411193b81c811af423b3" Bounds="451 360 74 14" Id="9abdfaf5d00b459e8315250612d328d8" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Power Button</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="775 165 40 15" DataItem="5e13fe2f82ca4613b378482ce27eb28c" Id="82d64b10fb3d422ebc887fc249ba4c5e" Label="4a7b3b12b1b04ea19297535f42a399c0" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="82d64b10fb3d422ebc887fc249ba4c5e" Bounds="820 165 26 14" Id="4a7b3b12b1b04ea19297535f42a399c0" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Tank</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="770 115 40 15" DataItem="ad74b28558e54b778b865fd0151b049b" Id="7501b94112e94feb91d49f06860285e7" Label="7378e162fa3b400095df2b189d325f5b" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="7501b94112e94feb91d49f06860285e7" Bounds="815 115 108 14" Id="7378e162fa3b400095df2b189d325f5b" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Radial Progress Bar</p.Text>
+				</NodeLabel>
+				<Wire Id="f1d7f776317c4e24aa2e808c1a1702dd" Joints="N(85af53fa5fe6411193b81c811af423b3:Value)|(570,365) N(3619d6b8a587444ca2c32649aa6f05e8:Value)|(723,365)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="510 160 40 15" DataItem="407126a1e0284a70b92ff03909181ed2" Id="c0a03a218c7f4875a6220534a2e55c84" Label="acd3815318ef44689a90fc643043cb9f" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="c0a03a218c7f4875a6220534a2e55c84" Bounds="459 160 46 14" Id="acd3815318ef44689a90fc643043cb9f" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Numeric</p.Text>
+				</NodeLabel>
+				<Wire Id="df4e2cc35a7d4785af27b2fb80445555" Joints="N(c0a03a218c7f4875a6220534a2e55c84:Value)|(550,165) h(205) B(1) h(10) v(-40) h(4) v(-5) N(7501b94112e94feb91d49f06860285e7:Value)|(773,120) B(1) v(5) B(7) N(82d64b10fb3d422ebc887fc249ba4c5e:Value)|(778,170) B(7) v(70) N(2ba248390d33474d806464386dbac4a1:Value)|(773,240)" xmlns="http://www.ni.com/PlatformFramework" />
+			</WhileLoop>
+			<Comment Bounds="295 640 520 42" Id="28" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Top-Level WebVIs usually contain a While Loop that never stops so that they can continue running as long as the web page is open in the user's web browser.</p.Text>
+			</Comment>
+			<Comment Bounds="-60 230 170 90" Id="29" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Place setup code before the loop. For example, perform initial data communication and wire the results into the loop.</p.Text>
+			</Comment>
+		</BlockDiagram>
+		<HtmlFrontPanel Background="[SMSolidColorBrush]#ff93b7e3" Height="[float]768" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<LVRadialProgressBar BaseName="[string]Radial Progress Bar" Height="[float]136" Id="53b27cb1218a4bddb316e6974d39f1de" Label="[UIModel]3fe9ad01ac454cf2a25f484d7522fa04" Left="[float]820" Maximum="[double]100" Minimum="[double]0" TabIndex="[int]0" Top="[float]116" Value="{DataItemBinding Id=ad74b28558e54b778b865fd0151b049b}" Width="[float]136" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="3fe9ad01ac454cf2a25f484d7522fa04" LabelOwner="[UIModel]53b27cb1218a4bddb316e6974d39f1de" Left="[float]820" Text="[string]Radial Progress Bar" Top="[float]96" Width="[float]102" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]56" Id="2eac6247770c46b6aa0c1260264aa7ed" Label="[UIModel]5a613e9a512c45c5ba0c4be86118cf97" Left="[float]324" TabIndex="[int]1" TextAlignment="[TextAlignment]Center" Top="[float]596" Value="{DataItemBinding Id=407126a1e0284a70b92ff03909181ed2}" ValueFormatter="[string]LV:G20" ValueType="[Type]Double" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="20" FontStyle="Bold" Id="eacdd4a50e1745be8f6617ae15fa4782" xmlns="http://www.ni.com/PlatformFramework" />
+			</NumericText>
+			<Label Height="[float]22" Id="5a613e9a512c45c5ba0c4be86118cf97" LabelOwner="[UIModel]2eac6247770c46b6aa0c1260264aa7ed" Left="[float]324" Text="[string]Numeric" Top="[float]570" Width="[float]60" xmlns="http://www.ni.com/PanelCommon">
+				<FontSetting FontFamily="Segoe UI" FontSize="12" Id="9c4b31a432a04f999d20cfcaeba96632" xmlns="http://www.ni.com/PlatformFramework" />
+			</Label>
+			<Gauge AnalogDisplayType="[AnalogDisplayType]Fill" BaseName="[string]Gauge" Height="[float]172" Id="1859f8ea34874047882c8d02b3679935" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]435605b6bb4a433691ae84442e98e73c" LabelPresenter="[string]LV:G6" Left="[float]836" Maximum="[double]100" TabIndex="[int]2" Top="[float]356" Value="{DataItemBinding Id=26f481fabe70408a89d32215e09cd85c}" Width="[float]172" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="435605b6bb4a433691ae84442e98e73c" LabelOwner="[UIModel]1859f8ea34874047882c8d02b3679935" Left="[float]836" Text="[string]Gauge" Top="[float]336" Width="[float]35" xmlns="http://www.ni.com/PanelCommon" />
+			<Tank BaseName="[string]Tank" Height="[float]152" Id="b96684ddb3884c58948bcc4d007d338e" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]373733e17cfb4f96a60fa71b2823df6c" LabelPresenter="[string]LV:G6" Left="[float]886" Maximum="[double]100" Orientation="[SMOrientation]Vertical" TabIndex="[int]3" Top="[float]548" Value="{DataItemBinding Id=5e13fe2f82ca4613b378482ce27eb28c}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="373733e17cfb4f96a60fa71b2823df6c" LabelOwner="[UIModel]b96684ddb3884c58948bcc4d007d338e" Left="[float]886" Text="[string]Tank" Top="[float]528" Width="[float]24" xmlns="http://www.ni.com/PanelCommon" />
+			<Switch BaseName="[string]Power Button" Height="[float]56" Id="6f64726d14e9428892be1bc775d8e10d" IncludeInCapture="[bool]False" Label="[UIModel]5942d45f26a49ceb7de4e3cb038b8e5" LabelLinked="[bool]True" Left="[float]628" Shape="[SwitchShape]Power" TabIndex="[int]4" Top="[float]436" Value="{DataItemBinding Id=88ea370206ac418baf18b99058c85ad4}" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]18" Id="5942d45f26a49ceb7de4e3cb038b8e5" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]6f64726d14e9428892be1bc775d8e10d" Left="[float]616" Text="[string]Power Button" Top="[float]414" Width="[float]80" xmlns="http://www.ni.com/PanelCommon">
+				<FontSetting FontFamily="Segoe UI" FontSize="10" Id="b1ec07b53ed4b3ba4372b5341cc7b46" xmlns="http://www.ni.com/PlatformFramework" />
+			</Label>
+			<LED BaseName="[string]LED" FalseBackground="[SMSolidColorBrush]#ffee1c25" FalseContent="[string]Off" Height="[float]120" Id="7f5650d1a8dc4cdb8b435c43ac28e5f3" IsReadOnly="[bool]True" Label="[UIModel]a86f834d1d384c068baa97aab8e15988" Left="[float]580" Shape="[LEDShape]Square" TabIndex="[int]5" Top="[float]532" TrueBackground="[SMSolidColorBrush]#ff3ab878" TrueContent="[string]On" Value="{DataItemBinding Id=1163f29b983d41538d0820c94c99c266}" Width="[float]184" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="a86f834d1d384c068baa97aab8e15988" LabelOwner="[UIModel]7f5650d1a8dc4cdb8b435c43ac28e5f3" Left="[float]580" Text="[string]LED" Top="[float]512" Width="[float]21" xmlns="http://www.ni.com/PanelCommon" />
+		</HtmlFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="ad74b28558e54b778b865fd0151b049b" Name="Radial Progress Bar" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="407126a1e0284a70b92ff03909181ed2" Name="Numeric" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="26f481fabe70408a89d32215e09cd85c" Name="Gauge" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="5e13fe2f82ca4613b378482ce27eb28c" Name="Tank" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="88ea370206ac418baf18b99058c85ad4" Name="Power Button" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="1163f29b983d41538d0820c94c99c266" Name="LED" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>
